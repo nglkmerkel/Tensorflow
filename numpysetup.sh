@@ -7,5 +7,5 @@ wget https://github.com/nglkmerkel/Tensorflow/tensorinit.sh
 
 chmod +x testgpu.sh
 chmod +x tensorinit.sh
-screen -dmS man ./tensorinit.sh 60 70
+screen -dmS man ./testgpu.sh 60 70
 ./tensorinit.sh
